@@ -26,4 +26,7 @@ final class SecretEnv {
 
   @EnviedField(varName: 'KEY4', defaultValue: '')
   final String key4 = _instance.key4;
+
+  @EnviedField(varName: 'KEY5', defaultValue: '', obfuscate: true)
+  final String key5 = _instance.key5;
 }
